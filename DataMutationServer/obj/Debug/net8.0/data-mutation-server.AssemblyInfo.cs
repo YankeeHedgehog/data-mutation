@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("data-mutation-server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b274767754265d1cca75f214b739a3fe97bf1a61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55f06b8937982f79f24d44e0bba95d8cba20605f")]
 [assembly: System.Reflection.AssemblyProductAttribute("data-mutation-server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("data-mutation-server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
