@@ -64,17 +64,17 @@
   - システムごとに詳細ページの仕様は異なる
     - Ciel
       - 基本設定の変更
-        - swd の変更
+        - swd の変更: changeSwdFile(from, to) => responseStatus
       - レイヤの変更
-        - レイヤ名の変更
+        - レイヤ名の変更: changeLayerName(from, to) => responseStatus
         - レイヤの設定の変更
-          - 初期表示レイヤの設定
-          - 作図可能か
-        - idb の参照先変更
+          - 初期表示レイヤの設定: setCurrentLayer(account, targetLayer) => status
+          - 作図可能か: setDrawableLayer(account, targetLayer, isDrawable) => status
+        - idb の参照先変更: changeIdbReference(swd, layerName, to) => status
       - 検索設定の変更
-        - 検索名称の変更
-        - 検索対象の変更
-        - 検索条件の選択
+        - 検索名称の変更: changeSearchConditionName(searchCondition, to) => status
+        - 検索対象の変更: changeSearchTarget(searchCondition, to) => status
+        - 検索条件の選択: selectSearchConditionSetting(searchCondition, to) => status
         - 選択設定とデフォルトを変更
       - 各種機能の設定
         - 有効にする機能の選択
