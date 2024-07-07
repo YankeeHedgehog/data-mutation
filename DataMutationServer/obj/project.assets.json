@@ -1014,11 +1014,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yankee-hedgehog/Project/data-mutation/data-mutation-server/data-mutation-server.csproj",
+      "projectUniqueName": "/Users/yankee-hedgehog/Project/data-mutation/DataMutationServer/data-mutation-server.csproj",
       "projectName": "data-mutation-server",
-      "projectPath": "/Users/yankee-hedgehog/Project/data-mutation/data-mutation-server/data-mutation-server.csproj",
+      "projectPath": "/Users/yankee-hedgehog/Project/data-mutation/DataMutationServer/data-mutation-server.csproj",
       "packagesPath": "/Users/yankee-hedgehog/.nuget/packages/",
-      "outputPath": "/Users/yankee-hedgehog/Project/data-mutation/data-mutation-server/obj/",
+      "outputPath": "/Users/yankee-hedgehog/Project/data-mutation/DataMutationServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yankee-hedgehog/.nuget/NuGet/NuGet.Config"

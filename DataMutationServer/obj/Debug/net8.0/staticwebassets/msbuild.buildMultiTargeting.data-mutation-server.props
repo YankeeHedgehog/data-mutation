@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/data-mutation-server.props" />
+</Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5z88J4spDcvlm4Xzi2A4ZIksSvZK6jCDLOSgzKcb4Qay8MZpMSiEfanlJMDtwY3ELew08dgIvyvCLAyV1Bte5A==",
+  "dgSpecHash": "kV8QthRSs1JsBYxWIrgfJbusAvUiqh6ea4LsvBUfcR2LrkR5UwwTbzRN22B1FaXyqmJaZGa5wm7MoV0Dj1eRxA==",
   "success": true,
-  "projectFilePath": "/Users/yankee-hedgehog/Project/data-mutation/data-mutation-server/data-mutation-server.csproj",
+  "projectFilePath": "/Users/yankee-hedgehog/Project/data-mutation/DataMutationServer/data-mutation-server.csproj",
   "expectedPackageFiles": [
     "/Users/yankee-hedgehog/.nuget/packages/microsoft.entityframeworkcore/8.0.6/microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "/Users/yankee-hedgehog/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.6/microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
