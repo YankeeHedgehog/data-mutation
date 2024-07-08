@@ -1,6 +1,7 @@
-import { Box, Container, Typography } from '@mui/material'
-import { DataGrid, GridColDef } from '@mui/x-data-grid'
-import { Outlet, useParams } from 'react-router-dom'
+import { Add } from '@mui/icons-material'
+import { Box, IconButton, Typography } from '@mui/material'
+import { DataGrid, GridColDef, GridEventListener } from '@mui/x-data-grid'
+import { useNavigate, useParams } from 'react-router-dom'
 
 type RowType = {
   id: number
@@ -68,13 +69,24 @@ export default function TicketDetailPage() {
   const willBeUpdatedAt = '2024/07/07'
   const targetLocalGverment = ''
 
+  const navigate = useNavigate()
+  const onRowClick: GridEventListener<'rowClick'> = (params) => {
+    const mutationId = params.id
+    navigate(`data-mutation/${mutationId}`)
+  }
+
   return (
     <>
-      <Typography variant="h5" component="h2">
-        {ticketName}
-      </Typography>
+      <Box display="flex" justifyContent="space-between">
+        <Typography variant="h5" component="h2">
+          {ticketName}
+        </Typography>
+        <IconButton color="primary">
+          <Add />
+        </IconButton>
+      </Box>
       <Box mt={2}>
-        <DataGrid rows={rows} columns={columns} />
+        <DataGrid rows={rows} columns={columns} onRowClick={onRowClick} />
       </Box>
     </>
   )

@@ -1,7 +1,6 @@
-import React from 'react'
 import { Form } from 'react-router-dom'
 
-export default function index() {
+export default function ChangeLayerName() {
   return (
     <Form>
       {/*  */}

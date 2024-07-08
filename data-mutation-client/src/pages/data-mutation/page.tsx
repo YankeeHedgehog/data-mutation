@@ -1,5 +1,13 @@
-import React from 'react'
+import ChangeLayerName from '../../features/mutation/layer/changeLayerName'
+
+const dataMutationComponentSelector = (type: string) => {
+  return {
+    changeLayerName: <ChangeLayerName />,
+  }[type]
+}
 
 export default function DataMutationPage() {
-  return <div>DataMutationPage</div>
+  const dataMutationType = 'changeLayerName'
+
+  return <>{dataMutationComponentSelector(dataMutationType)}</>
 }
