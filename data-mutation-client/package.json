@@ -15,7 +15,11 @@
     "@mui/icons-material": "^5.16.0",
     "@mui/material": "^5.16.0",
     "@mui/x-data-grid": "^7.9.0",
+    "@types/node": "^20.14.10",
+    "@types/puppeteer": "^7.0.4",
     "@types/react-router-dom": "^5.3.3",
+    "exceljs": "^4.4.0",
+    "puppeteer": "^22.12.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.24.1"
